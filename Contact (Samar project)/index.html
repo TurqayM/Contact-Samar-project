@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <section class="content-inner">
+            <div class="container">
+                <div class="two-parts">
+                    <div class="samar-picture">
+                        <img src="samar photo/img8.png" alt="">
+                    </div>
+                    <div class="samar-message">                        
+                        <form class="all" method="post" action="script/contact.php">
+                        <div class="title">
+                            <h2>Get In Touch With Us</h2>
+                        </div>
+                        <div class="form">
+                            <div class="name">
+                                <input name="dzName" type="text" class="form-control" placeholder="Full Name">
+                            </div>
+                            <div class="email">
+                                <input name="dzEmail" type="text" class="form-control" placeholder="Email Address">
+                            </div>    
+                            <div class="phone">
+                                <input name="dzOther[phone]" type="text" class="form-control" placeholder="Phone No.">
+                            </div>
+                            <div class="binary">
+                                <div class="p-title">
+                                    <input name="dzOther[project_title]" type="text" class="form-control" placeholder="Project Title">
+                                </div>
+                                <div class="choose-service">
+                                    <select name="dzOther[choose_service]" class="form-control">
+                                        <option>Choose Service</option>
+                                        <option value="1">Web Development</option>
+                                        <option value="2">Web Design</option>
+                                        <option value="3">Strategy &amp; Research</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="message">
+                                <textarea class="form-control" placeholder="Message"></textarea>                            
+                            </div> 
+                            <div class="submit-now">
+                                <button type="submit" class="btn-btn-corner">Submit Now</button>
+                            </div>
+                                                                     
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
